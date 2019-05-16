@@ -9,26 +9,26 @@ while c == 'y'
     if ch == 1
         ans = n1 + n2
         puts "Submission is " + ans.to_s
-        puts "Do u want to continue "
+        puts "Do u want to continue (y/n) :"
         c = gets.chomp()
     elsif ch == 2
         ans = n1 - n2
         puts "Subtraction is " + ans.to_s
-        puts "Do u want to continue "
+        puts "Do u want to continue (y/n) :"
         c = gets.chomp()
     elsif ch == 3
         ans = n1 * n2
         puts "Multiplication is " + ans.to_s
-        puts "Do u want to continue "
+        puts "Do u want to continue (y/n) :"
         c = gets.chomp()
     elsif ch == 4
         ans = n1 / n2
         puts "Division is " + ans.to_s
-        puts "Do u want to continue "
+        puts "Do u want to continue (y/n) :"
         c = gets.chomp()
     else
         puts "Invalid choice"
-        puts "Do u want to continue "
+        puts "Do u want to continue (y/n) :"
         c = gets.chomp()
     end
 end
